@@ -1,3 +1,16 @@
 *{
     color: aqua;
 }
+.conteiner{
+    color: gold;
+    animation: cambiaColor 2s infinite alternate;
+}
+
+@keyframes cambiaColor {
+    from{
+        color: gold;
+    }
+    to {
+        color: black;
+    }
+}
